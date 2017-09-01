@@ -1750,7 +1750,7 @@
                 .appendTo( slide.$content );
 
             if ( $img[0].complete ) {
-                  $img.trigger( 'load' );
+//                  $img.trigger( 'load' );
 
             } else if( $img[0].error ) {
                  $img.trigger( 'error' );
